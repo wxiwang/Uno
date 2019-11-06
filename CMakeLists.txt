@@ -3,4 +3,4 @@ project(Uno)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Uno main.cpp Uno.h Uno.cpp UnoGame.h UnoGame.cpp Move.h)
+add_executable(Uno main.cpp Uno.h Uno.cpp UnoGame.h UnoGame.cpp Move.h InputValidation.cpp InputValidation.h)

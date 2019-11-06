@@ -36,7 +36,7 @@ private:
 class Uno::Player{
     friend class Uno::UnoGame;
 public:
-    explicit Player(std::string  name):name(std::move(name)),hand_card(){}
+    explicit Player(std::string name):name(std::move(name)),hand_card(){}
 private:
     std::string name;
     std::vector<Uno::Card> hand_card;
